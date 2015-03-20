@@ -1,0 +1,19 @@
+---------git shell command, create new repository and move new file to the repository
+C:\Users\Maggie\Documents\Github> ls
+C:\Users\Maggie\Documents\Github> cd..
+C:\Users\Maggie>cd Desktop
+C:\Users\Maggie\Desktop> ls
+C:\Users\Maggie\Desktop>mkdir  -----create new folder
+Path[0]: R-Scripts
+Path[1]:    
+C:\Users\Maggie\Desktop> cd R-Scripts
+C:\Users\Maggie\Desktop\R-Scripts>mv   -----means moving the file
+Path[0]: ../Regression Code.r
+Path[1]: .   -----means all
+C:\Users\Maggie\Desktop\R-Scripts > ls
+C:\Users\Maggie\Desktop\R-Scripts > git init
+C:\Users\Maggie\Desktop\R-Scripts[master +1 ~0 -0 !]] > git add .  ---means add all
+C:\Users\Maggie\Desktop\R-Scripts[master +1 ~0 -0] > git status
+C:\Users\Maggie\Desktop\R-Scripts[master +1 ~0 -0]> git commit -m 'first commit'
+C:\Users\Maggie\Desktop\R-Scripts[master]> git remote add origin https:......copy from github
+C:\Users\Maggie\Desktop\R-Scripts[master]> git push origin master
